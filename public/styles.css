@@ -373,3 +373,68 @@ footer p {
   }
 }
 
+
+/* AI model pages */
+.ai-subtopics-grid {
+  margin: 2rem 0 2.5rem;
+}
+
+.model-page {
+  max-width: 980px;
+}
+
+.model-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.model-company {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.model-company h2 {
+  font-size: 1.2rem;
+  margin: 0 0 0.4rem;
+}
+
+.model-company .capability {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.7rem;
+}
+
+.model-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.model-list li {
+  border-top: 1px solid var(--border);
+  padding: 0.65rem 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.model-list li:first-child {
+  border-top: 0;
+  padding-top: 0.2rem;
+}
+
+.price {
+  display: inline-block;
+  margin-left: 0.35rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.small-note {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin-top: 1.4rem;
+}
