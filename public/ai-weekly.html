@@ -42,66 +42,73 @@
 
                 <article class="featured-article">
                     <p class="eyebrow">Featured analysis</p>
-                    <h3>The most important shift this week: frontier AI is becoming software that can act, not just answer</h3>
+                    <h3>Claude Code vs Cursor Composer 2: the real battle is trust, workflow control, and total cost</h3>
 
                     <p>
-                        If I had to pick one development that best captures where the LLM market is headed, it is the accelerating move
-                        from conversational assistants to <em>agentic systems</em> that can take actions in real workflows. The headline
-                        example this week is Anthropic's push around Claude capabilities that interact with software and complete tasks,
-                        rather than just produce text responses. On the surface, this can look like a product feature race. Underneath,
-                        it points to a deeper change in how value is being created in AI.
+                        The most interesting story this week in developer AI isn't a benchmark chart. It's the intensifying contest between
+                        Anthropic's <strong>Claude Code</strong> experience and Cursor's push with <strong>Composer 2</strong>. Both are trying to become the default
+                        environment where software gets written, reviewed, and refactored. If chat models were the opening phase of the coding-AI era,
+                        this is the platform phase: who owns the day-to-day developer loop.
                     </p>
 
                     <p>
-                        The first phase of generative AI was dominated by chat interfaces. That phase was great for discovery: everyone could
-                        test writing, coding, and reasoning in a low-friction way. But chat by itself hits a ceiling in enterprise settings,
-                        because most business work is not "write one answer" work. It is multi-step work: collect context, look up data,
-                        transform files, fill forms, coordinate systems, and leave an auditable trail. The economics change dramatically when
-                        a model can do those steps directly instead of merely advising a human operator.
+                        Anthropic's move is strategically bold. On Claude's public pricing page, Claude Code is bundled into paid plans (including Pro),
+                        while API pricing for heavy usage is listed separately. That creates the perception—widely discussed in developer communities—that
+                        Anthropic is willing to subsidize high-intensity coding behavior inside its product to win adoption. Whether those subsidies are
+                        temporary, moderate, or substantial in net margin terms, the directional signal is clear: Anthropic appears comfortable trading
+                        short-term economics for long-term developer mindshare.
                     </p>
 
                     <p>
-                        That's why this week's agentic momentum matters more than another benchmark jump. Benchmarks still matter, but they are
-                        becoming table stakes. What increasingly differentiates providers is a stack that combines model quality with tool use,
-                        permissions, reliability, and ecosystem integration. In practical terms: who can safely connect an LLM to calendars,
-                        documents, browsers, CRMs, internal APIs, and deployment controls? The winner in that layer can capture recurring workflow
-                        value, not just API call volume.
+                        Cursor is responding with product velocity and first-party model differentiation. Composer 2 is pitched as frontier-level coding
+                        intelligence at aggressive token pricing, with a faster default variant for throughput-heavy workflows. The positioning is not
+                        subtle: Cursor wants developers to see Composer as "good enough or better" for everyday coding tasks at materially attractive cost.
+                        In other words, this is a direct contest with premium model vendors on practical productivity per dollar, not just raw model prestige.
                     </p>
 
                     <p>
-                        This has strategic implications for all major model regions. In the American model stack, we are seeing a tightening loop
-                        between frontier reasoning models and orchestration tooling. In China, where price-performance pressure is intense,
-                        agentic capabilities could become a way to avoid pure commodity pricing by packaging execution reliability and vertical
-                        solutions. In other ecosystems, especially open-weight and enterprise-focused providers, agent frameworks are a path to
-                        stay competitive even when they don't lead on raw benchmark peaks.
+                        But this is where controversy enters. In Cursor's own community threads, sentiment on Composer 2 is polarized. Many developers report
+                        excellent speed and meaningful upgrades over prior Composer versions. Others report over-editing, verbosity, drift from user intent,
+                        and uncertainty around model selection behavior (for example, complaints about being auto-routed to the fast variant).
+                        There are also recurring concerns about token consumption on failed iterations, documentation clarity, and whether benchmark claims
+                        map cleanly onto messy real-world codebases. None of this is unusual for frontier tooling—but it matters because trust is now the
+                        primary product moat.
                     </p>
 
                     <p>
-                        There is also a governance consequence. The moment models can take actions, not just generate drafts, policy and procurement
-                        become first-order market variables. Questions like "Who approved this action?", "What data did the model access?", and
-                        "How do we roll back failures?" become operational, not theoretical. This helps explain why legal and regulatory context is
-                        increasingly entangled with model adoption decisions. The capability frontier is now inseparable from control-plane design.
+                        Trust, in this context, means something specific: does the model consistently do what I asked, in my repo, with my conventions,
+                        without introducing invisible cleanup costs? Developers will tolerate occasional hallucinations. They will not tolerate steady
+                        low-grade rework. So while pricing and speed make headlines, retention will be decided by second-order factors: edit reliability,
+                        diff quality, controllability in agent mode, and how often teams need to "babysit" the system.
                     </p>
 
                     <p>
-                        For teams building products today, the right response is not "pick one best model forever." It's to design for model
-                        portability and task routing. Use premium models for high-stakes reasoning, lower-cost models for throughput tasks, and
-                        wrap both with robust tool permissions, logging, and fallback paths. The companies that treat model selection as runtime
-                        infrastructure rather than one-time procurement will adapt faster as model capabilities and pricing keep moving.
+                        There's also an underappreciated economic layer. Teams increasingly compare not just token price, but <em>effective cost per accepted
+                        change</em>. A model that is 2x cheaper per token but causes 3x more review churn can be more expensive in practice. Conversely,
+                        a seemingly pricey option can be cheapest if it reduces back-and-forth and avoids regressions. This is why the Claude Code vs Cursor
+                        framing is so consequential: it forces buyers to evaluate workflow economics, not just model SKU tables.
                     </p>
 
                     <p>
-                        So the key takeaway this week is simple: the center of gravity in AI competition is moving upward from models alone to
-                        <strong>model-plus-execution systems</strong>. The market still celebrates raw intelligence gains, but the bigger economic shift
-                        is toward trustworthy autonomy in everyday workflows. If that trend holds, the defining AI products of the next cycle may
-                        not look like chat apps at all; they will look like quietly competent digital operators embedded across software stacks.
+                        The likely near-term outcome is coexistence rather than winner-take-all. Many developers will run hybrid stacks:
+                        Composer for fast drafting and broad refactors, Claude or another frontier model for harder reasoning passes,
+                        and strict CI plus human review to arbitrate output quality. Over time, the tool that wins may simply be the one with the
+                        highest "first-pass accept" rate under realistic team constraints.
+                    </p>
+
+                    <p>
+                        My read this week: Anthropic is using distribution and plan design to seed habitual usage; Cursor is using integrated IDE execution
+                        and rapid model iteration to compress the distance between "assistant" and "teammate." The hearts-and-minds battle is real,
+                        and the market is voting in real time. For now, developers are not choosing a single champion—they are stress-testing both,
+                        and rewarding whichever setup produces the cleanest shipped code per unit of attention.
                     </p>
 
                     <p class="sources">Further reading:
-                        <a href="https://www.anthropic.com/news" target="_blank" rel="noopener">Anthropic news</a> ·
-                        <a href="https://www.anthropic.com/news/claude-partner-network" target="_blank" rel="noopener">Claude Partner Network</a> ·
-                        <a href="https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html" target="_blank" rel="noopener">CNBC on Claude computer-use update</a> ·
-                        <a href="https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/" target="_blank" rel="noopener">TechCrunch on policy/procurement pressure</a>
+                        <a href="https://claude.com/pricing" target="_blank" rel="noopener">Claude plans (includes Claude Code)</a> ·
+                        <a href="https://platform.claude.com/docs/en/about-claude/pricing" target="_blank" rel="noopener">Claude API pricing</a> ·
+                        <a href="https://cursor.com/blog/composer-2" target="_blank" rel="noopener">Cursor Composer 2 announcement</a> ·
+                        <a href="https://forum.cursor.com/t/introducing-composer-2/155288" target="_blank" rel="noopener">Cursor announcement thread</a> ·
+                        <a href="https://forum.cursor.com/t/share-your-experience-with-composer-2/155289" target="_blank" rel="noopener">Community sentiment thread</a>
                     </p>
                 </article>
 
