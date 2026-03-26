@@ -483,3 +483,29 @@ footer p {
 .blog-entry .sources {
   margin-bottom: 0;
 }
+
+
+.featured-article {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.4rem;
+  margin: 1rem 0 2rem;
+}
+
+.featured-article h3 {
+  color: var(--text-primary);
+  margin-bottom: 0.9rem;
+}
+
+.featured-article p {
+  margin-bottom: 0.9rem;
+}
+
+.featured-article .eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+}
