@@ -456,3 +456,30 @@ footer p {
 .sources a:hover {
   color: var(--accent-hover);
 }
+
+
+.blog-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.blog-entry {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.blog-entry h3 {
+  color: var(--text-primary);
+  margin-bottom: 0.65rem;
+}
+
+.blog-entry p {
+  margin-bottom: 0.65rem;
+}
+
+.blog-entry .sources {
+  margin-bottom: 0;
+}
