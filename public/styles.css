@@ -509,3 +509,30 @@ footer p {
   font-size: 0.8rem;
   margin-bottom: 0.4rem;
 }
+
+
+.bull-bear-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.bull-bear-col {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.9rem;
+}
+
+.bull-bear-col h4 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.bull-bear-col p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+}
