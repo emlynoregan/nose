@@ -38,6 +38,157 @@
                     across American, Chinese, and broader model ecosystems.
                 </p>
 
+                <h2>Week of 31 March 2026</h2>
+
+                <article class="featured-article">
+                    <p class="eyebrow">Featured analysis</p>
+                    <h3>AI coding enters its accountability era: the winners will be the teams that optimize for accepted output, not raw model speed</h3>
+
+                    <p>
+                        The headline story this week is not just another model release. It is a broader market shift in how AI coding tools are being judged.
+                        Through most of the last cycle, developer AI adoption was driven by novelty and obvious productivity gains: faster drafts, faster refactors,
+                        faster bug hunts. That phase is over. The new phase is accountability. Engineering teams are now asking a harder question:
+                        <em>which system reliably produces changes we can actually merge?</em>
+                    </p>
+
+                    <p>
+                        You can see this shift clearly across current updates from major players. OpenAI's GPT-5.4 mini/nano rollout extends the frontier trend toward
+                        capability tiering: high-end reasoning at the top, leaner models for high-throughput workloads. Anthropic, meanwhile, is managing growth and
+                        usage controls in parallel with rapid feature shipping, highlighting how demand pressure and reliability constraints now directly shape user
+                        experience. Cursor continues pushing integrated coding workflows via Composer 2, where speed and cost positioning are explicit selling points,
+                        but community reactions remain mixed enough to keep trust front-and-center.
+                    </p>
+
+                    <p>
+                        Put together, these are signals of a maturing market. Benchmark gains still matter, but they do not guarantee retention. In real repos,
+                        teams care about whether the generated patch respects conventions, avoids noisy edits, keeps architectural intent intact, and reduces total
+                        review burden. A model that is impressive in isolation can still lose if it creates diff churn. Conversely, a model that is merely "very good"
+                        can win if it is predictable and easy to steer.
+                    </p>
+
+                    <p>
+                        This is why "cheap tokens" vs "expensive tokens" is an incomplete framing. The right metric is effective cost per accepted change,
+                        or even cost per production-safe improvement. That includes not just inference spend, but reviewer time, CI reruns, regressions,
+                        and opportunity cost from developer context switching. Once teams measure outcomes this way, the competitive map changes quickly.
+                        In many cases, the fastest system is not the most economical, and the most capable model is not the most scalable default.
+                    </p>
+
+                    <p>
+                        A second-order consequence is that workflow design is becoming a strategic capability. Teams that separate tasks by risk level,
+                        route easy/high-volume work to cheaper models, and reserve premium reasoning models for high-impact decisions will outperform teams
+                        that standardize on one model for everything. The platform battle is therefore moving above model intelligence into policy,
+                        guardrails, and orchestration: permissioning, auditability, rollback safety, and clarity around what an assistant is allowed to do.
+                    </p>
+
+                    <p>
+                        Regional model dynamics reinforce this trend. US labs continue shaping top-end enterprise demand with integrated ecosystems and strong
+                        distribution channels. Chinese model ecosystems keep applying price-performance pressure, especially where open or semi-open routes
+                        accelerate iteration and diffusion. Non-US/non-China providers remain relevant by focusing on deployability, sovereignty, and specific
+                        enterprise constraints. The result is a genuinely multi-polar market where few teams can afford single-vendor dependence.
+                    </p>
+
+                    <p>
+                        My read for this week: AI coding is moving from "who demos best" to "who ships cleanly at scale." The provider that wins developer mindshare
+                        over the next year is unlikely to be the one with the flashiest launch day. It will be the one that consistently helps teams produce
+                        mergeable code with minimal supervision, clear controls, and stable economics. In short, the next moat is trust under production pressure.
+                    </p>
+
+                    <p class="sources">Further reading:
+                        <a href="https://openai.com/index/introducing-gpt-5-4-mini-and-nano/" target="_blank" rel="noopener">OpenAI: GPT-5.4 mini and nano</a> ·
+                        <a href="https://help.openai.com/en/articles/9624314-model-release-notes" target="_blank" rel="noopener">OpenAI model release notes</a> ·
+                        <a href="https://claude.com/pricing" target="_blank" rel="noopener">Claude pricing (plan + product packaging)</a> ·
+                        <a href="https://cursor.com/blog/composer-2" target="_blank" rel="noopener">Cursor Composer 2 announcement</a> ·
+                        <a href="https://forum.cursor.com/t/share-your-experience-with-composer-2/155289" target="_blank" rel="noopener">Cursor community sentiment thread</a>
+                    </p>
+                </article>
+
+                <div class="bull-bear-box">
+                    <div class="bull-bear-col">
+                        <h4>Bull case</h4>
+                        <p>
+                            Teams adopt structured model routing and stronger review guardrails, so coding assistants deliver compounding productivity
+                            gains with fewer regressions and a clearer path to broad enterprise standardization.
+                        </p>
+                    </div>
+                    <div class="bull-bear-col">
+                        <h4>Bear case</h4>
+                        <p>
+                            Reliability remains inconsistent across real-world projects, causing persistent verification overhead. If that persists,
+                            ROI plateaus and assistants remain helpful copilots rather than core engineering infrastructure.
+                        </p>
+                    </div>
+                </div>
+
+                <h2>Other updates this week</h2>
+
+                <div class="blog-list">
+                    <article class="blog-entry">
+                        <h3>OpenAI continues model tiering for throughput-heavy workloads</h3>
+                        <p>
+                            GPT-5.4 mini/nano reinforce a familiar strategy: keep premium frontier capability while broadening cheaper, faster routes
+                            for high-volume use. Expect more teams to split workloads by complexity and latency needs.
+                        </p>
+                        <p class="sources">Further reading:
+                            <a href="https://openai.com/index/introducing-gpt-5-4-mini-and-nano/" target="_blank" rel="noopener">GPT-5.4 mini and nano</a> ·
+                            <a href="https://help.openai.com/en/articles/9624314-model-release-notes" target="_blank" rel="noopener">Model release notes</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-entry">
+                        <h3>Anthropic demand management is now part of product experience</h3>
+                        <p>
+                            Discussions around session limits and reliability under peak demand underline a key market reality:
+                            adoption pace can outstrip delivery consistency unless capacity and policy controls evolve in lockstep.
+                        </p>
+                        <p class="sources">Further reading:
+                            <a href="https://claude.com/pricing" target="_blank" rel="noopener">Claude pricing</a> ·
+                            <a href="https://www.forbes.com/sites/johnkoetsier/2026/03/26/anthropic-huge-pricing-issues-with-glitching-claude-code-limits/" target="_blank" rel="noopener">Forbes coverage of limit adjustments</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-entry">
+                        <h3>Cursor Composer 2 sentiment remains split between speed and control</h3>
+                        <p>
+                            Early adopters still praise throughput and cost posture, while others report drift, over-editing, and routing confusion.
+                            This is increasingly a trust-and-governance problem, not just a model-quality problem.
+                        </p>
+                        <p class="sources">Further reading:
+                            <a href="https://cursor.com/blog/composer-2" target="_blank" rel="noopener">Composer 2 launch post</a> ·
+                            <a href="https://forum.cursor.com/t/share-your-experience-with-composer-2/155289" target="_blank" rel="noopener">User sentiment thread</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-entry">
+                        <h3>Chinese open-model ecosystems continue price-performance pressure</h3>
+                        <p>
+                            The China stack remains central to global pricing pressure, especially where open or semi-open models accelerate deployment
+                            and customization. This keeps downward pressure on API margins globally.
+                        </p>
+                        <p class="sources">Further reading:
+                            <a href="https://www.cnbc.com/2026/01/28/chinese-tech-companies-accelerate-ai-model-rollouts-us-rivals-deepseek-moonshot-kimi.html" target="_blank" rel="noopener">CNBC: China model rollout pace</a> ·
+                            <a href="https://finance.yahoo.com/news/chinas-open-source-models-30-093000383.html" target="_blank" rel="noopener">Open model usage share coverage</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-entry">
+                        <h3>Multi-provider architecture is becoming the enterprise default</h3>
+                        <p>
+                            Procurement, reliability, and compliance pressures are making single-model strategies less attractive.
+                            More teams are designing explicit fallback and routing layers across model vendors.
+                        </p>
+                        <p class="sources">Further reading:
+                            <a href="https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/" target="_blank" rel="noopener">Policy/procurement context</a> ·
+                            <a href="https://fortune.com/2026/03/10/google-openai-employees-back-anthropic-legal-fight-military-use-of-ai/" target="_blank" rel="noopener">Related legal-market coverage</a>
+                        </p>
+                    </article>
+                </div>
+
+                <p class="small-note">
+                    Last updated: 31 March 2026. Pricing and availability can change quickly.
+                </p>
+
+                <hr class="week-divider" />
+
                 <h2>Week of 26 March 2026</h2>
 
                 <article class="featured-article">

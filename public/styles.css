@@ -536,3 +536,10 @@ footer p {
   font-size: 0.92rem;
   color: var(--text-secondary);
 }
+
+
+.week-divider {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
