@@ -36,90 +36,97 @@
                 <div class="model-groups">
                     <article class="model-company">
                         <h2>Alibaba (Qwen)</h2>
-                        <p class="capability">Strengths: quality-per-dollar, coding, and multimodal versatility.</p>
+                        <p class="capability">Strengths: quality-per-dollar, coding, long context, and increasingly broad multimodal coverage.</p>
                         <ul class="model-list">
-                            <li><strong>Qwen family</strong> — Frontier open and hosted lineup moving quickly. <span class="price">Qwen3 235B A22B 2507: $0.23 / $0.91</span></li>
-                            <li><strong>Qwen lower-cost routes</strong> — Usually very competitive on price. <span class="price">Qwen3 32B: $0.15 / $0.62</span></li>
+                            <li><strong>Qwen3-Max</strong> — Current top hosted flagship for harder reasoning and tool-heavy work. <span class="price">From $0.359 / $1.434 in global deployment; higher in some regional modes</span></li>
+                            <li><strong>Qwen3.5-Plus</strong> — Balanced text+image+video tier positioned as faster and more cost-effective than Max. <span class="price">From $0.115 / $0.688 in global deployment</span></li>
+                            <li><strong>Qwen3.5-Flash</strong> — Budget high-context route for simpler tasks. <span class="price">From $0.029 / $0.287 in global deployment</span></li>
                         </ul>
-                        <p class="sources">Sources: <a href="https://www.alibabacloud.com/help/en/model-studio/what-is-model-studio" target="_blank" rel="noopener">Alibaba Model Studio docs</a> · <a href="https://aws.amazon.com/bedrock/pricing/" target="_blank" rel="noopener">Amazon Bedrock Qwen pricing reference</a></p>
+                        <p class="sources">Sources: <a href="https://www.alibabacloud.com/help/en/model-studio/models" target="_blank" rel="noopener">Alibaba Model Studio models &amp; pricing</a></p>
                     </article>
 
                     <article class="model-company">
                         <h2>DeepSeek</h2>
-                        <p class="capability">Strengths: strong benchmark/value tradeoff for general and coding workloads.</p>
+                        <p class="capability">Strengths: exceptional price-performance, long context, and strong coding/reasoning economics.</p>
                         <ul class="model-list">
-                            <li><strong>deepseek-v4-flash</strong> — Value-focused flagship route with thinking and non-thinking modes. <span class="price">$0.14 input cache-miss / $0.28 output</span></li>
-                            <li><strong>deepseek-v4-pro</strong> — Higher-capability premium route. <span class="price">$1.74 input cache-miss / $3.48 output</span></li>
+                            <li><strong>deepseek-v4-flash</strong> — Value flagship with both thinking and non-thinking modes. <span class="price">$0.14 input cache-miss / $0.28 output</span></li>
+                            <li><strong>deepseek-v4-pro</strong> — Premium tier for stronger capability at materially higher cost. <span class="price">$1.74 input cache-miss / $3.48 output</span></li>
                         </ul>
                         <p class="sources">Sources: <a href="https://api-docs.deepseek.com/quick_start/pricing" target="_blank" rel="noopener">DeepSeek API pricing</a></p>
                     </article>
 
                     <article class="model-company">
                         <h2>MiniMax</h2>
-                        <p class="capability">Strengths: agentic and coding-oriented profiles.</p>
+                        <p class="capability">Strengths: agentic workflows, coding, and a fast-moving release cadence across text, speech, music, and video.</p>
                         <ul class="model-list">
-                            <li><strong>minimax-m2.5</strong> — Paid route. <span class="price">$0.20 / $1.17</span></li>
-                            <li><strong>minimax-m2.5:free</strong> — Free route (availability variable). <span class="price">$0.00 / $0.00</span></li>
+                            <li><strong>MiniMax-M2.7</strong> — Current M-series release as of March 2026, positioned as the next step after M2.5. <span class="price">Pricing varies by provider; check live platform quotes before publication-sensitive decisions</span></li>
+                            <li><strong>MiniMax-M2.5</strong> — Prior 2026 generation still useful as a practical reference point for agentic and office-style tasks. <span class="price">Older routed prices may still appear, but should be treated as stale until rechecked</span></li>
                         </ul>
-                        <p class="sources">Sources: <a href="https://openrouter.ai/minimax/minimax-m1" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://platform.minimax.io/docs/guides/models-intro" target="_blank" rel="noopener">MiniMax platform docs</a></p>
+                        <p class="sources">Sources: <a href="https://platform.minimax.io/docs/release-notes/models" target="_blank" rel="noopener">MiniMax model release notes</a> · <a href="https://platform.minimax.io/docs/guides/models-intro" target="_blank" rel="noopener">MiniMax platform docs</a></p>
                     </article>
 
                     <article class="model-company">
                         <h2>Zhipu (Z.ai)</h2>
-                        <p class="capability">Strengths: strong Chinese-language performance and general reasoning.</p>
+                        <p class="capability">Strengths: Chinese-language fluency, agentic engineering, and a growing full-stack platform around the GLM family.</p>
                         <ul class="model-list">
-                            <li><strong>glm-5</strong> — General premium tier. <span class="price">$0.72 / $2.30</span></li>
+                            <li><strong>GLM-5</strong> — Current flagship positioned for coding and agent workloads. <span class="price">Official public pricing was not cleanly extractable in this pass; verify live platform pricing before quoting exact token rates</span></li>
+                            <li><strong>GLM-5-Turbo</strong> — Lower-cost line optimized for tool calling, instruction following, and long-chain execution. <span class="price">Pricing not quoted here because the official page was JS-gated in this environment</span></li>
+                            <li><strong>GLM-4.6V</strong> — Open visual-reasoning line for multimodal use cases. <span class="price">Varies by deployment/provider</span></li>
                         </ul>
-                        <p class="sources">Sources: <a href="https://openrouter.ai/z-ai/glm-4.5" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://docs.bigmodel.cn/cn/guide/start/introduction" target="_blank" rel="noopener">Zhipu docs</a></p>
+                        <p class="sources">Sources: <a href="https://www.zhipuai.cn/en" target="_blank" rel="noopener">Z.ai / Zhipu overview</a> · <a href="https://bigmodel.cn/pricing" target="_blank" rel="noopener">Zhipu Open Platform pricing</a></p>
                     </article>
 
                     <article class="model-company">
                         <h2>Moonshot AI</h2>
-                        <p class="capability">Strengths: long-context quality tier.</p>
+                        <p class="capability">Strengths: long-context quality, multimodal input, and increasingly agent-oriented positioning.</p>
                         <ul class="model-list">
-                            <li><strong>kimi-k2.5</strong> — High-context quality line. <span class="price">$0.45 / $2.20</span></li>
+                            <li><strong>kimi-k2.6</strong> — Moonshot's current most intelligent model, with text, image, and video input plus thinking and non-thinking modes. <span class="price">Official pricing was not surfaced in the extracted intro page; check the live model list before citing exact numbers</span></li>
                         </ul>
-                        <p class="sources">Sources: <a href="https://openrouter.ai/moonshotai/kimi-k2" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://platform.moonshot.ai/docs/introduction" target="_blank" rel="noopener">Moonshot platform docs</a></p>
+                        <p class="sources">Sources: <a href="https://platform.moonshot.ai/docs/introduction" target="_blank" rel="noopener">Moonshot platform introduction</a></p>
                     </article>
 
                     <article class="model-company">
                         <h2>Baidu</h2>
-                        <p class="capability">Strengths: enterprise alignment and vision-language options.</p>
+                        <p class="capability">Strengths: enterprise positioning, broad multimodal research, and a large installed ecosystem around ERNIE.</p>
                         <ul class="model-list">
-                            <li><strong>ernie-4.5-300b-a47b</strong> — Large general model. <span class="price">$0.28 / $1.10</span></li>
+                            <li><strong>ERNIE 5.0</strong> — Current headline model family, framed by Baidu as a unified multimodal foundation model. <span class="price">Public token pricing was not confirmed in this pass; verify on Qianfan before publishing exact rates</span></li>
+                            <li><strong>ERNIE-4.5-VL-28B-A3B-Thinking</strong> — Notable multimodal reasoning line highlighted in recent Baidu research posts. <span class="price">Research/demo pricing varies by platform</span></li>
                         </ul>
-                        <p class="sources">Sources: <a href="https://openrouter.ai/baidu/ernie-4.5-300b-a47b" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://cloud.baidu.com/doc/qianfan/index.html" target="_blank" rel="noopener">Baidu Qianfan docs</a></p>
+                        <p class="sources">Sources: <a href="https://ernie.baidu.com/blog/" target="_blank" rel="noopener">ERNIE blog</a> · <a href="https://cloud.baidu.com/doc/qianfan/index.html" target="_blank" rel="noopener">Baidu Qianfan docs</a></p>
                     </article>
 
                     <article class="model-company">
                         <h2>ByteDance</h2>
-                        <p class="capability">Strengths: multimodal family and strong product integration potential.</p>
+                        <p class="capability">Strengths: broad multimodal product family, strong consumer product integration, and unusually rapid model iteration.</p>
                         <ul class="model-list">
-                            <li><strong>seed-2.0-lite</strong> — Multimodal-capable tier. <span class="price">$0.25 / $2.00</span></li>
+                            <li><strong>Seed2.0</strong> — Current flagship family on ByteDance's public model page. <span class="price">Pricing depends on the serving surface and was not confirmed in a clean public extract here</span></li>
+                            <li><strong>Seed1.8 / Seed1.6</strong> — Earlier general-purpose families still visible in the public model lineup. <span class="price">Varies by platform</span></li>
+                            <li><strong>Seedance 2.0 / Seedream 5.0 Lite</strong> — Evidence of strong video/image specialization around the core text model family. <span class="price">Specialized media pricing varies</span></li>
                         </ul>
-                        <p class="sources">Sources: <a href="https://openrouter.ai/bytedance/seed-2.0-lite" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://www.volcengine.com/docs/82379?lang=zh" target="_blank" rel="noopener">Volcengine docs</a></p>
+                        <p class="sources">Sources: <a href="https://seed.bytedance.com/en/models" target="_blank" rel="noopener">ByteDance Seed model catalog</a></p>
                     </article>
 
                     <article class="model-company">
                         <h2>Tencent</h2>
-                        <p class="capability">Strengths: practical general-purpose offerings.</p>
+                        <p class="capability">Strengths: practical enterprise deployment, API availability through Tencent Cloud, and broad product integration.</p>
                         <ul class="model-list">
-                            <li><strong>hunyuan-a13b</strong> — Efficient, lower-cost model. <span class="price">$0.14 / $0.57</span></li>
+                            <li><strong>Hunyuan family</strong> — Tencent continues to position Hunyuan as a general-purpose API platform for text generation, analysis, and enterprise use cases. <span class="price">Exact current token pricing was not extracted in this pass; verify Tencent Cloud pricing pages before quoting numbers</span></li>
                         </ul>
-                        <p class="sources">Sources: <a href="https://openrouter.ai/tencent/hunyuan-a13b-instruct" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://cloud.tencent.com/document/product/1729" target="_blank" rel="noopener">Tencent Cloud docs</a></p>
+                        <p class="sources">Sources: <a href="https://cloud.tencent.com/document/product/1729" target="_blank" rel="noopener">Tencent Hunyuan docs</a></p>
                     </article>
 
                     <article class="model-company">
                         <h2>Xiaomi</h2>
-                        <p class="capability">Strengths: emerging long-context line.</p>
+                        <p class="capability">Strengths: emerging agentic coding performance, long-horizon task execution, and efficient harness-aware behavior.</p>
                         <ul class="model-list">
-                            <li><strong>mimo-v2-pro</strong> — Newer pro tier. <span class="price">$1.00 / $3.00</span></li>
+                            <li><strong>MiMo-V2.5-Pro</strong> — Xiaomi's current public-beta flagship, now rolled out across its API platform and AI Studio. <span class="price">No price change from MiMo-V2-Pro according to Xiaomi, but exact token rates were not disclosed in the fetched page</span></li>
+                            <li><strong>MiMo-V2-Pro</strong> — Previous flagship still relevant mainly as a baseline for the 2.5-Pro upgrade. <span class="price">Check Xiaomi's live platform for current plan details</span></li>
                         </ul>
-                        <p class="sources">Sources: <a href="https://openrouter.ai/xiaomi/mimo-vl-7b-instruct" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://openrouter.ai/models?q=xiaomi" target="_blank" rel="noopener">Model listing search</a></p>
+                        <p class="sources">Sources: <a href="https://mimo.xiaomi.com/mimo-v2-5-pro" target="_blank" rel="noopener">Xiaomi MiMo-V2.5-Pro announcement</a></p>
                     </article>
                 </div>
 
-                <p class="small-note">Indicative pricing in USD per 1M input/output tokens. Last updated: April 2026. Free routes and routed provider prices may change without notice.</p>
+                <p class="small-note">Indicative pricing in USD per 1M input/output tokens where directly confirmed from current public docs. Last updated: April 2026. Pricing, route names, regional deployment differences, and free-tier availability can change quickly, so publication-sensitive decisions should be verified against the live vendor pricing pages.</p>
             </div>
         </section>
     </main>
