@@ -40,6 +40,8 @@
                         <ul class="model-list">
                             <li><strong>gpt-5.5</strong> — Current flagship general model. <span class="price">$5.00 / $30.00</span></li>
                             <li><strong>gpt-5.4</strong> — Strong lower-cost flagship tier. <span class="price">$2.50 / $15.00</span></li>
+                            <li><strong>gpt-5.4-mini</strong> — Cheaper fast tier for higher-volume applications. <span class="price">$0.75 / $4.50</span></li>
+                            <li><strong>gpt-5.4-mini</strong> — Cheaper fast tier for higher-volume applications. <span class="price">$0.75 / $4.50</span></li>
                             <li><strong>gpt-5.3-codex</strong> — Coding-focused route. <span class="price">$1.75 / $14.00</span></li>
                         </ul>
                         <p class="sources">Sources: <a href="https://developers.openai.com/api/docs/pricing" target="_blank" rel="noopener">OpenAI API pricing</a></p>
@@ -69,8 +71,8 @@
                         <h2>Amazon (AWS)</h2>
                         <p class="capability">Strengths: enterprise distribution via Bedrock, broad deployment pathways, and price-performance model ladder.</p>
                         <ul class="model-list">
-                            <li><strong>amazon-nova-pro</strong> — General multimodal model via Bedrock. <span class="price">$0.80 / $3.20</span></li>
-                            <li><strong>amazon-nova-lite</strong> — Lower-cost tier for high-volume workloads. <span class="price">$0.06 / $0.24</span></li>
+                            <li><strong>amazon-nova-pro</strong> — General multimodal model via Bedrock. <span class="price">Pricing page confirms Nova model family, but this pass did not cleanly expose the token-rate rows for Nova Pro</span></li>
+                            <li><strong>amazon-nova-lite</strong> — Lower-cost tier for high-volume workloads. <span class="price">Pricing page confirms the Nova model family, but exact token rates should be rechecked live before publication-sensitive quoting</span></li>
                         </ul>
                         <p class="sources">Sources: <a href="https://aws.amazon.com/nova/models/" target="_blank" rel="noopener">Amazon Nova models</a> · <a href="https://aws.amazon.com/nova/pricing/" target="_blank" rel="noopener">Amazon Nova pricing</a> · <a href="https://aws.amazon.com/bedrock/pricing/" target="_blank" rel="noopener">Amazon Bedrock pricing</a></p>
                     </article>
@@ -89,7 +91,7 @@
                         <h2>xAI</h2>
                         <p class="capability">Strengths: strong general model profile with large-context support.</p>
                         <ul class="model-list">
-                            <li><strong>grok-4.20-beta</strong> — Frontier general model. <span class="price">$2.00 / $6.00</span></li>
+                            <li><strong>grok-4.20</strong> — xAI's current recommended general model. <span class="price">Token pricing is shown on the model detail page rather than the main models list; this pass confirmed the current route name and tool pricing, but exact token rates should be rechecked on the live detail page before quoting</span></li>
                         </ul>
                         <p class="sources">Sources: <a href="https://openrouter.ai/x-ai/grok-4" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://docs.x.ai/developers/models" target="_blank" rel="noopener">xAI model docs</a></p>
                     </article>
@@ -98,13 +100,13 @@
                         <h2>Meta</h2>
                         <p class="capability">Strengths: open-weight ecosystem and high value per dollar.</p>
                         <ul class="model-list">
-                            <li><strong>llama-4-maverick</strong> — Open-weight value line. <span class="price">$0.15 / $0.60</span></li>
+                            <li><strong>Llama 4 Maverick</strong> — Natively multimodal open-weight line. <span class="price">Meta currently highlights an indicative cost range of about $0.19–$0.49 per 1M tokens on its model page rather than a simple input/output API table</span></li>
                         </ul>
                         <p class="sources">Sources: <a href="https://openrouter.ai/meta-llama/llama-4-maverick" target="_blank" rel="noopener">OpenRouter model page</a> · <a href="https://www.llama.com/" target="_blank" rel="noopener">Llama models</a></p>
                     </article>
                 </div>
 
-                <p class="small-note">Indicative pricing in USD per 1M input/output tokens. Last updated: April 2026. Includes major US model/platform players where source-backed. Anthropic figures shown are base Claude API rates; AWS/NVIDIA figures shown use standard Amazon Bedrock on-demand rates, and routed/provider-specific prices can still differ.</p>
+                <p class="small-note">Indicative pricing in USD per 1M input/output tokens. Last updated: April 2026. Includes major US model/platform players where source-backed. Anthropic figures shown are base Claude API rates. Some providers now present model families and benchmarked cost ranges more clearly than clean API token tables, so Amazon Nova, xAI, and Meta/Llama entries remain slightly more caveated here until their live pricing surfaces are rechecked more directly.</p>
             </div>
         </section>
     </main>
